@@ -1,16 +1,16 @@
 # Tugas Rutin 1 - Setup Environment & Aplikasi Hello World Flutter
 
-Repository ini dibuat untuk memenuhi **Tugas Rutin 1** pada mata kuliah **Pemrograman Mobile** (Pertemuan 1). 
+Repository ini dibuat untuk memenuhi **Tugas Rutin 1** pada mata kuliah **Pemrograman Mobile** (Pertemuan 1).
+
 ---
 
 ## (a) Identitas Mahasiswa
 
 | Atribut | Keterangan |
 | :--- | :--- |
-| **Nama Lengkap** | Muhammad Gali Almahdi |
+| **Nama Lengkap** | M. Gali Almahdi |
 | **NIM** | 4243250042 |
 | **Kelas** | PSIK 24 D 2024 |
----
 
 ---
 
@@ -49,6 +49,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 **Fitur yang ditampilkan pada aplikasi:**
 1. Teks sapaan **`Hello World, Flutter!`**.
 2. Kartu identitas mahasiswa yang memuat **Nama** (`M. Gali Almahdi`), **NIM** (`4243250042`), dan **Kelas** (`PSIK 24 D 2024`).
+
 ---
 
 ## (e) Kendala yang Dialami & Solusinya
@@ -78,11 +79,12 @@ Pendekatan **Native** membangun aplikasi khusus untuk satu sistem operasi menggu
 Pendekatan **Hybrid** membungkus kode web (HTML, CSS, dan JavaScript) di dalam komponen WebView menggunakan kerangka kerja seperti Ionic atau Cordova. Pendekatan ini sangat hemat biaya dan cepat dikerjakan oleh pengembang web, tetapi performanya paling rendah karena antarmuka dirender melalui peramban internal. Contoh kasus yang tepat adalah **aplikasi katalog informasi kampus atau pencatatan hasil panen komunitas petani** dengan anggaran terbatas dan fitur sederhana.
 
 Sementara itu, pendekatan **Cross-platform** seperti Flutter menggunakan satu basis kode (Dart) yang dikompilasi ke kode mesin native (AOT) serta menggambar piksel antarmuka sendiri melalui engine rendering Impeller. Hasilnya, performa aplikasi mendekati Native dengan efisiensi waktu dan biaya pengembangan lintas platform. Contoh kasus yang tepat adalah **aplikasi e-commerce atau startup layanan pesan-antar** yang membutuhkan tampilan konsisten dan responsif di Android maupun iOS secara bersamaan.
+
 ---
 
 ## (f) Pernyataan Penggunaan AI
 
-Dalam pengerjaan Tugas Rutin 1 ini, penulis menggunakan bantuan asisten AI (Google Antigravity / Gemini) sebagai pendamping belajar (*pair programming*) untuk:
+Dalam pengerjaan Tugas Rutin 1 ini, penulis menggunakan bantuan asisten AI sebagai pendamping belajar untuk:
 1. Membantu merancang pemisahan struktur folder kode sumber (`models`, `screens`, dan `widgets`) dan konvensi dokumentasi Dart (`///`).
 2. Membantu merapikan format penulisan tabel dan tata letak dokumentasi Markdown pada berkas `README.md`.
 3. Memahai flow dari flutter.
